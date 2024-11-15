@@ -1,16 +1,31 @@
-# tradexaassignment
 
-A new Flutter project.
+## Run Locally
 
-## Getting Started
+Clone the project
 
-This project is a starting point for a Flutter application.
+```bash
+  git clone https://github.com/Mukul-Jindal/TradexaAssesment.git
+```
 
-A few resources to get you started if this is your first Flutter project:
+Go to the project directory
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```bash
+  cd TradexaAssesment
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Install dependencies
+
+```bash
+  flutter pub get
+```
+
+After initializing virtual device run: 
+
+```bash
+  flutter run
+```
+
+Note: You can simply download the provided apk from the repository
+
+
+Note: omdb API always returned single value, however I have added comment to make changes if in future the API changes and it return more than one data
