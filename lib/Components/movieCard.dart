@@ -37,16 +37,12 @@ Container movieCard(BuildContext context, Movie movie) {
                         fontSize: fontSizeConstants.title,
                       ),
                     ),
-                    Container(
-                      height: 25,
-                      decoration: const BoxDecoration(),
-                      child: Text(
-                        movie.genre,
-                        style: const TextStyle(
-                          fontSize: 12,
-                          fontWeight: FontWeight.bold,
-                          color: Colors.grey,
-                        ),
+                    Text(
+                      movie.genre,
+                      style: const TextStyle(
+                        fontSize: 12,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.grey,
                       ),
                     ),
                     Container(
